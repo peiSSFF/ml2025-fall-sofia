@@ -53,7 +53,7 @@ def main():
             bestK = k
 
     print(f"Best k: {bestK}")
-    print(f"Best Test Accuracy: {bestAccuracy:.2f}")
+    print(f"Best Test Accuracy: {bestAccuracy:.4f}")
 
 if __name__ == "__main__":
     main()
